@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UA.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFFEFD;
+  font-family: lato;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-content-link {
+  color: #1A212F;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.header-content-link + .header-content-link {
+  margin-left: 30px;
+}
+.main-inner {
+  height: 500px;
+  background-size: cover;
+  background-image: url(/Background.png), url(/cat1.png), url(/cat.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-inner-content {
+  padding-top: 140px;
+  padding-left: 80px;
+}
+.main-inner-content-theme {
+  font-size: 62px;
+  font-family: Rubik;
+}
+.main-inner-content-comfort {
+  font-size: 20px;
+  font-weight: 500;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 206px;
+  height: 50px;
+  margin-top: 40px;
+  background: #FFFEFD;
+  box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+  border-radius: 25px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Lato;
+}
+.button::after {
+  content: url(/paw.png);
+}
+/*  /HEADER */
+/*  ABOUT   */
+.about-title {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 70px;
+}
+.title {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 36px;
+  color: #1A212F;
+}
