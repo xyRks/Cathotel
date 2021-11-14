@@ -63,9 +63,15 @@ header {
   padding-top: 140px;
   padding-left: 80px;
 }
+.main-inner-content-city {
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
 .main-inner-content-theme {
   font-size: 62px;
   font-family: Rubik;
+  margin-bottom: 5px;
 }
 .main-inner-content-comfort {
   font-size: 20px;
@@ -139,4 +145,39 @@ header {
 .about-container-subtitle {
   margin-left: 30px;
   width: 291px;
+}
+.number-container {
+  position: relative;
+}
+.number-container-img {
+  padding-left: 170px;
+}
+.number-container-card {
+  position: absolute;
+  top: 75px;
+  left: 700px;
+  width: 400px;
+  height: 204px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+  border-radius: 8px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+.number-container-card-content-subtitle {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.number-container-card-content-list {
+  padding-left: 20px;
+  list-style-image: url(/Ellipse.jpg);
+  margin: 0;
+}
+.number-container-card-content-list-element ~ .number-container-card-content-list-element {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
