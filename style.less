@@ -17,6 +17,16 @@ p {
     padding: 0;
 }
 
+li {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 header {
     background-color: white;
     padding-top: 12px;
@@ -174,27 +184,92 @@ header {
 }
 
 
+.slick-track {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.number-container .slick-arrow {    
+    position: absolute;
+    font-size: 0;
+    bottom: 0;
+    right: 0;
+    border: none;
+    background-color: #FFFFFF;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.25);
+    border-radius: 50%;
+}
+
+.number-container .slick-prev {
+    background: url(/Vector-left.svg) center  no-repeat;
+    right: 175px;
+}
+
+.number-container .slick-next {
+    background: url(/right.svg) center no-repeat;
+    right: 130px;
+}
+
+.number-container .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-container .slick-dots li ~ li{
+    margin-left: 12px;
+}
+
+.number-container .slick-dots li {
+    list-style: none;
+}
+
+.number-container .slick-dots  button {
+    font-size: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #E1E1E1;
+    border-radius: 50%;
+    border: none;
+}
+
+.number-container .slick-dots .slick-active button{
+    background-color: #FFE1A7;
+}
+
 .number-container {
     position: relative;
-    
+}
+
+.number-container-slider-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .number-container-img {
-    padding-left: 170px;
+
 }
 
 .number-container-card {
-    position: absolute;
-    top: 75px;
-    left: 700px;
-    width: 400px;
+    z-index: 1;
+    margin-left: -60px;
+    width: 460px;
     height: 204px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
-    border-radius: 8px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border-radius: 8px;
+    text-align: start;
 }
 
 .number-container-card-content-subtitle {
