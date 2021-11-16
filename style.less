@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     background: #FFFEFD;
-    font-family: lato;
+    font-family: 'Lato';
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -60,7 +60,10 @@ header {
     font-size: 16px;
     text-decoration: none;
     font-weight: 600;
-     
+}
+
+.header-content-link:first-child {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header-content-link + .header-content-link {
@@ -322,6 +325,9 @@ header {
 
 .review {
     margin-bottom: 145px;
+    background: url(/back-paw2.png) no-repeat;
+    background-position: right;
+    background-position-y: 30px;
 }
 
 .review-container {
@@ -368,17 +374,49 @@ header {
 .faq-info {
     justify-content: center;
     width: 50%;
-    background-color: blanchedalmond;
+    background-color: #FFE1A7;
     height: 580px;
 }
 
 .faq-info-title {
-    margin-top: 75px;
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 70px;
+    padding-left: 200px;
     margin-bottom: 50px;
 }
 
 .faq-map {
-    width: 50%;
-    background-color: aqua;
-    height: 580px;
+    display: flex;
+    width: 55%;
 }
+
+.faq-info-items {
+    margin-bottom: 35px;
+    margin-left: 200px;
+}
+
+.faq-info-items-subtitle {
+    font-weight: 700;
+    font-size: 17px;
+    max-width: 230px;
+    margin-bottom: 10px;
+    
+}
+
+.faq-info-items-text {
+    max-width: 230px;
+}
+
+.faq-info-items-link {
+    margin-bottom: 35px;
+    max-width: 230px;
+    text-decoration: none;
+    color: #1A212F;
+}
+
+.faq-info-items-images a ~ a {
+    margin-left: 20px;
+}
+
