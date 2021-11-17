@@ -460,6 +460,9 @@ header {
     padding-left: 0;
     margin: 0;
   }
+  .number-container-card {
+    padding-bottom: 80px;
+  }
 }
 @media screen and (max-width: 1180px) {
   .number-container-card {
