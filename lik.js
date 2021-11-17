@@ -8,7 +8,8 @@ $(document).ready(function(){
         pauseOnFocus: true,
         pauseOnHover: true,
         pauseOnDotsHover: true,
-
+        adaptiveWidthp: false,
+        adaptiveHeight: false,
     });
 })
 
@@ -24,6 +25,8 @@ $(document).ready(function(){
         pauseOnFocus: true,
         pauseOnHover: true,
         pauseOnDotsHover: true,
+        adaptiveWidthp: true,
+        adaptiveHeight: true,
     });
 })
 
