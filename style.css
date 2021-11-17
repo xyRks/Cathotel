@@ -515,7 +515,7 @@ header {
   margin-right: 15px;
   margin-left: 15px;
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
   .main-inner {
     background: url(/back-cat-mobile.png) no-repeat, url(/cat-back-mobile.png) no-repeat;
     background-size: cover;
