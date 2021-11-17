@@ -127,6 +127,9 @@ header {
   text-decoration: none;
   font-weight: 600;
 }
+.header-content-link:hover {
+  color: #fac663;
+}
 .header-content-link:first-child {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -173,6 +176,10 @@ header {
   font-size: 16px;
   font-family: Lato;
 }
+.button:hover {
+  background-color: #ff7236;
+  color: #fff;
+}
 .button::after {
   content: url(/paw.png);
 }
@@ -187,7 +194,7 @@ header {
 .block-title {
   text-align: center;
   padding-top: 140px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 .title {
   font-family: Rubik;
@@ -209,6 +216,9 @@ header {
   height: 321px;
   margin-right: 30px;
   box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+}
+.about-container-card:hover {
+  box-shadow: 0 0 25px rgba(250, 198, 99, 0.7);
 }
 .about-card-img {
   margin-left: 30px;
@@ -237,6 +247,7 @@ header {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 .slick-list {
   overflow: hidden;
@@ -265,6 +276,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.slick-arrow {
+  cursor: pointer;
 }
 .slick-dots li ~ li {
   margin-left: 12px;
@@ -303,6 +317,9 @@ header {
   box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
   border-radius: 8px;
   text-align: start;
+}
+.number-container-card:hover {
+  box-shadow: 0 0 25px rgba(250, 198, 99, 0.7);
 }
 .number-container-card-content-subtitle {
   font-family: Rubik;
@@ -361,6 +378,9 @@ header {
   box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
   border-radius: 8px;
   margin-right: 30px;
+}
+.review-container-item:hover {
+  box-shadow: 0 0 25px rgba(250, 198, 99, 0.7);
 }
 .review-container-item-card-text {
   font-weight: 500;
@@ -527,6 +547,10 @@ header {
   .footer .header-content {
     display: none;
   }
+  .about {
+    background-image: url(/paw-back-mobile.png);
+    background-position-y: 180px;
+  }
   .about-container-card {
     max-width: 345px;
   }
@@ -539,6 +563,10 @@ header {
   .about-container-subtitle {
     margin-left: 20px;
   }
+  .number {
+    background-image: url(/fish-mobile.png);
+    background-position-y: 220px;
+  }
   .number-container-card {
     max-width: 265px;
     padding-bottom: 70px;
@@ -547,6 +575,10 @@ header {
   .number-container-img {
     width: 290px;
     height: 190px;
+  }
+  .review {
+    background-image: url(/paw-mobile-2.png);
+    background-position-y: 170px;
   }
   .footer {
     padding-left: 15px;
