@@ -1,0 +1,426 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u-w4BMUTPHjxsIPy-v.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u_w4BMUTPHjxsI9w2PHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u8w4BMUTPHjxswWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u_w4BMUTPHjxsI5wqPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u_w4BMUTPHjxsI3wiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u8w4BMUTPHh30wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh7USew8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHvxk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVew8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh50Xew8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0Uw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0Uw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0Uw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFEUw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1UA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-2Y-1UA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-h4-1UA.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFFEFD;
+  font-family: 'Lato', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 70px;
+}
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-content-novigation {
+  display: flex;
+  height: 100%;
+}
+.header-content-link {
+  display: block;
+  color: #1A212F;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.header-content-link:hover {
+  border-bottom: 2px solid rgba(250, 198, 99, 0.7);
+}
+.header-content-link + .header-content-link {
+  margin-left: 30px;
+}
+.catalog__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  align-items: center;
+  font-family: Rubik;
+  color: #1A212F;
+}
+.catalog__aside {
+  margin-right: 90px;
+}
+.catalog__aside-form {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+}
+.catalog__aside-item:not(:first-child) {
+  display: flex;
+  flex-direction: column;
+}
+.catalog__aside-input {
+  width: 100px;
+  height: 24px;
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #1A212F;
+}
+.catalog__aside-form input {
+  margin-bottom: 20px;
+}
+.catalog__aside-form label {
+  font-size: 14px;
+}
+.catalog__aside-legend {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 15px 36px 17px;
+  border: 2px solid #FFE1A7;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+.btn:not(:last-child) {
+  margin-bottom: 20px;
+}
+.catalog__inner {
+  display: flex;
+}
+.catalog__list-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.catalog__list-card {
+  margin-bottom: 30px;
+  height: 430px;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+  border-radius: 6px;
+}
+.catalog__list-card:not(:nth-child(3n)) {
+  margin-right: 20px;
+}
+.catalog__list-conetnt {
+  padding: 15px 18px 0;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.catalog__list-title {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-family: Rubik;
+}
+.catalog__list-text:not(:last-child) {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+.catalog_link {
+  margin-left: 15px;
+}
+.catalog__list-link {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 40px 19px 51px;
+  font-size: 16px;
+  text-align: center;
+  background: #FF7236;
+  border-radius: 25px;
+}
+.catalog__list-link::after {
+  position: relative;
+  content: url(/catalog/img/paw.svg);
+  width: 34px;
+  height: 34px;
+  top: 13px;
+  left: 30px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: url(/catalog/img/Mask\ Group.png) no-repeat center top;
+  background-size: contain;
+}
+.banner__conent {
+  width: 325px;
+  position: relative;
+  right: 200px;
+}
+.banner__conent-title {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 36px;
+  align-items: center;
+  line-height: 20px;
+}
+.banner__conent-title-huge {
+  font-size: 56px;
+  margin-bottom: 5px;
+}
+.banner__conent-text {
+  width: 255px;
+  font-size: 16px;
+  align-items: center;
+  margin-bottom: 35px;
+  padding-left: 5px;
+}
+.banner__conent-button {
+  padding: 18px 63px 20px 30px;
+  background: #FFFEFD;
+  box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+  border-radius: 25px;
+  text-decoration: none;
+  color: #1A212F;
+}
+.banner__conent-button::after {
+  content: url(/catalog/img/paw-orange.svg);
+}
+.faq {
+  display: flex;
+  margin-bottom: 15px;
+}
+.faq-info {
+  justify-content: center;
+  width: 40%;
+  background-color: #FFE1A7;
+  padding: 70px 111px 70px 198px;
+}
+.faq-info-title {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.faq-map {
+  display: flex;
+  width: 65%;
+}
+.faq-info-items {
+  margin-bottom: 35px;
+}
+.faq-info-items-subtitle {
+  font-weight: 700;
+  font-size: 17px;
+  max-width: 230px;
+  margin-bottom: 10px;
+}
+.faq-info-items-text {
+  max-width: 230px;
+}
+.faq-info-items-link {
+  margin-bottom: 35px;
+  max-width: 230px;
+  text-decoration: none;
+  color: #1A212F;
+}
+.faq-info-items-images a ~ a {
+  margin-left: 20px;
+}
+footer {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.footer-lic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.footer-lic-text {
+  color: #8F8F8F;
+}
+.footer-lic-text::before {
+  content: url(img/a.svg);
+  margin-right: 5px;
+}
+.footer-lic-link {
+  color: #8F8F8F;
+  text-decoration: none;
+}
