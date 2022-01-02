@@ -209,7 +209,7 @@ header {
 .main-inner {
   height: 500px;
   background-size: cover;
-  background-image: url(/Background.png), url(/cat1.png), url(/cat.png);
+  background-image: url(img/Background.png), url(img/cat1.png), url(img/cat.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -245,18 +245,19 @@ header {
   font-weight: 500;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
+  cursor: pointer;
 }
 .button:hover {
   background-color: #ff7236;
   color: #fff;
 }
 .button::after {
-  content: url(/paw.png);
+  content: url(img/paw.png);
 }
 /*  /HEADER */
 /*  ABOUT   */
 .about {
-  background-image: url(/paw-bacl.png);
+  background-image: url(img/paw-bacl.png);
   background-repeat: no-repeat;
   background-position: top right;
   background-position-y: 15px;
@@ -321,7 +322,7 @@ header {
   width: 291px;
 }
 .number {
-  background-image: url(/back-fish.png);
+  background-image: url(img/back-fish.png);
   background-repeat: no-repeat;
   background-position-y: 165px;
   background-position-x: 10px;
@@ -348,11 +349,11 @@ header {
   border-radius: 50%;
 }
 .slick-prev {
-  background: url(/Vector-left.svg) center no-repeat;
+  background: url(img/Vector-left.svg) center no-repeat;
   right: 175px;
 }
 .slick-next {
-  background: url(/right.svg) center no-repeat;
+  background: url(img/right.svg) center no-repeat;
   right: 130px;
 }
 .slick-dots {
@@ -414,7 +415,7 @@ header {
 }
 .number-container-card-content-list {
   padding-left: 20px;
-  list-style-image: url(/Ellipse.jpg);
+  list-style-image: url(img/Ellipse.jpg);
 }
 .number-container-card-content-list-element ~ .number-container-card-content-list-element {
   margin-bottom: 20px;
@@ -438,7 +439,7 @@ header {
 }
 .number-container-card-button::after {
   position: absolute;
-  content: url(/white-paw.svg);
+  content: url(img/white-paw.svg);
   width: 36px;
   height: 36px;
   right: 10px;
@@ -446,7 +447,7 @@ header {
 }
 .review {
   margin-bottom: 145px;
-  background: url(/back-paw2.png) no-repeat;
+  background: url(img/back-paw2.png) no-repeat;
   background-position: right;
   background-position-y: 30px;
 }
@@ -476,7 +477,7 @@ header {
 }
 .review-container-item::before {
   content: "";
-  background: url(/“.svg) no-repeat;
+  background: url(img/“.svg) no-repeat;
   min-width: 35px;
 }
 .review-container-name-date {
@@ -540,7 +541,7 @@ header {
   color: #8F8F8F;
 }
 .footer-lic-text::before {
-  content: url(/a.svg);
+  content: url(img/a.svg);
   margin-right: 5px;
 }
 .footer-lic-link {
@@ -555,7 +556,7 @@ header {
 }
 @media screen and (max-width: 768px) {
   .main-inner {
-    background: url(/back-cat-plant.png) no-repeat, url(/catin-back-olant.png) no-repeat center;
+    background: url(img/back-cat-plant.png) no-repeat, url(img/catin-back-olant.png) no-repeat center;
     height: 870px;
   }
   .main-inner-content {
@@ -626,7 +627,7 @@ header {
 }
 @media screen and (max-width: 500px) {
   .main-inner {
-    background: url(/back-cat-mobile.png) no-repeat, url(/cat-back-mobile.png) no-repeat;
+    background: url(img/back-cat-mobile.png) no-repeat, url(img/cat-back-mobile.png) no-repeat;
     background-size: cover;
   }
   .header-content-novigation,
@@ -634,7 +635,7 @@ header {
     display: none;
   }
   .about {
-    background-image: url(/paw-back-mobile.png);
+    background-image: url(img/paw-back-mobile.png);
     background-position-y: 180px;
   }
   .about-container-card {
@@ -650,7 +651,7 @@ header {
     margin-left: 20px;
   }
   .number {
-    background-image: url(/fish-mobile.png);
+    background-image: url(img/fish-mobile.png);
     background-position-y: 220px;
   }
   .number-container-card {
@@ -663,7 +664,7 @@ header {
     height: 190px;
   }
   .review {
-    background-image: url(/paw-mobile-2.png);
+    background-image: url(img/paw-mobile-2.png);
     background-position-y: 170px;
   }
   .footer {
