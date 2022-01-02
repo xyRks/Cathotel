@@ -388,6 +388,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: grab;
 }
 .number-container-card {
   z-index: 1;
@@ -412,10 +413,12 @@ header {
   font-weight: 500;
   font-size: 22px;
   margin-bottom: 15px;
+  cursor: text;
 }
 .number-container-card-content-list {
   padding-left: 20px;
   list-style-image: url(img/Ellipse.jpg);
+  cursor: text;
 }
 .number-container-card-content-list-element ~ .number-container-card-content-list-element {
   margin-bottom: 20px;
@@ -465,6 +468,7 @@ header {
   margin-right: 30px;
   margin-bottom: 45px;
   transition: box-shadow 0.2s linear;
+  cursor: grab;
 }
 .review-container-item:hover {
   box-shadow: 0 0 25px rgba(250, 198, 99, 0.7);
@@ -474,6 +478,7 @@ header {
   font-size: 17px;
   min-height: 110px;
   margin-bottom: 25px;
+  cursor: text;
 }
 .review-container-item::before {
   content: "";
@@ -485,6 +490,7 @@ header {
   justify-content: space-between;
   color: #848484;
   font-size: 17px;
+  cursor: text;
 }
 .faq {
   display: flex;

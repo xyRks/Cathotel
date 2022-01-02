@@ -269,6 +269,10 @@ option::before {
   cursor: pointer;
   font-weight: 600;
   font-size: 14px;
+  transition: background-color 0.25s linear;
+}
+.btn:hover {
+  background-color: #FFE1A7;
 }
 .btn:not(:last-child) {
   margin-bottom: 20px;
@@ -311,6 +315,9 @@ option::before {
   margin-bottom: 10px;
   font-size: 14px;
   font-family: "Roboto";
+}
+.catalog__list-icon {
+  margin-left: 8px;
 }
 .catalog_link {
   margin-left: 15px;
