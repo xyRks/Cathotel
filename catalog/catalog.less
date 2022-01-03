@@ -309,7 +309,6 @@ option::before {
     content: url(/catalog/img/paw-orange.svg);
 
 }
-
 .faq {
     display: flex;
     margin-bottom: 15px;
@@ -360,6 +359,7 @@ option::before {
 .faq-info-items-images a ~ a {
     margin-left: 20px;
 }
+
 
 
 footer {
@@ -418,29 +418,30 @@ footer {
 }
 
 @media screen and (max-width: 604px) {
+    .title {
+        margin-bottom: 35px;
+    }
+
+    .catalog__top {
+        flex-direction: column;
+    }
+
     .catalog__aside {
         display: none;
     }
 }
 
 @media screen and (max-width: 1180px) {
-   .banner__mobile {
+   .banner {
        display: flex;
-        background: url(/catalog/img/банер.png) no-repeat center top;
+        background: url(/catalog/img/ban.jpg) no-repeat center top;
         background-size: contain;
-        width: 100vw;
-        height: 40vh;
     }
 
-    .banner__mobile-link {
-        display: block;
-        width: 100%;
-        height: 40%;
-    }
     .banner__conent {
-        display: none;
+        right: 170px;
+        bottom: 20px;
     }
-    
     .review-container-item {
         padding: 35px;
     }
@@ -487,6 +488,40 @@ footer {
 
 
 @media screen and (max-width: 700px) {
+
+    .banner {
+        background: url(/catalog/img/ban-mobile.jpg) no-repeat center;
+        background-size: auto;
+        height: 500px;
+    }
+
+    .banner__conent {
+        left: 0;
+        bottom: 115px;
+        text-align: center;
+    }
+
+    .banner__conent-title {
+        font-size: 24px;
+       
+    }
+    
+    .banner__conent-title-huge{
+        font-size: 37px;
+      
+    }
+    
+    .banner__conent-text {
+        width: 300px;
+        font-size: 15px;
+        padding-left: 35px;
+      
+    }
+
+    .banner__conent-button {
+        padding: 18px 38px 20px 30px;
+    }
+
     .number-container-card {
         margin-top: -20px;
         margin-left: 0;
@@ -526,7 +561,7 @@ footer {
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .main-inner {
     background: url(img/back-cat-mobile.png) no-repeat,url(img/cat-back-mobile.png)no-repeat,;
     background-size: cover;
@@ -588,6 +623,7 @@ footer {
         width: 100%;  
     }
     .faq-info {
+        align-self: center;
         padding-left: 0px;
         padding-right: 0;
         padding-bottom: 0;
@@ -613,3 +649,4 @@ footer {
         align-items: flex-start;
     }
 }
+
