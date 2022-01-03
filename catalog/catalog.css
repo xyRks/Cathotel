@@ -319,7 +319,7 @@ option::before {
   font-family: "Roboto";
 }
 .catalog__list-icon {
-  margin-left: 8px;
+  margin-left: 6px;
 }
 .catalog_link {
   margin-left: 15px;
@@ -352,7 +352,6 @@ option::before {
   background-size: contain;
 }
 .banner__conent {
-  width: 325px;
   position: relative;
   right: 200px;
 }
@@ -505,7 +504,7 @@ footer {
   .catalog__list-card:nth-child(2n) {
     margin-right: 0;
   }
-  .catalog__list-card:nth-child(3n) {
+  .catalog__list-card:nth-child(3) {
     margin-right: 20px;
   }
   .review-container-item-card-text,
@@ -549,7 +548,7 @@ footer {
   .banner__conent-text {
     width: 300px;
     font-size: 15px;
-    padding-left: 35px;
+    padding-left: 10px;
   }
   .banner__conent-button {
     padding: 18px 38px 20px 30px;
