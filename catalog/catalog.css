@@ -148,6 +148,9 @@
 * {
   box-sizing: border-box;
 }
+.none {
+  display: none;
+}
 body {
   margin: 0;
   padding: 0;

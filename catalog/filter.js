@@ -1,16 +1,23 @@
 
 function chek() {
     let chbox = document.getElementById('1');
+    let card = document.querySelectorAll('#target')
 
+
+    
     if (chbox.checked ) {
-        return document.getElementById('target').style.display = "none" ;
+        for (let key of card) {
+             key.classList.add('none')
+         }
         }
     else {
-       return  document.getElementById('target').style.display = "block";
+        for (let key of card) {
+            key.classList.remove('none')
+         }
     }
 }
 
-
+console.log(chek())
 
 // function check () {
 //     let chbox = document.getElementById('1');
