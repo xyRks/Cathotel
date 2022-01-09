@@ -19,7 +19,7 @@ filter.onchange = function () {
 for (let filter2 of filres2) {
     filter2.onchange = function () {
         for (let article of articles) {
-          if (filter2.checked && article.dataset.palace != filter2.value) {
+          if (filter2.checked && article.dataset.palace !== filter2.value) {
             article.classList.add('none'); 
           } else  {
             article.classList.remove('none');
