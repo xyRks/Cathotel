@@ -726,6 +726,9 @@ header {
   .burger.active span {
     transform: scale(0);
   }
+  .hidden {
+    overflow: hidden;
+  }
   .header-content-burger {
     position: fixed;
     z-index: 2;
