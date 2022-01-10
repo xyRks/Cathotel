@@ -804,13 +804,22 @@ footer {
     }
 
     .header-content-burger {
+        display: block;
         position: fixed;
         z-index: 2;
 
+        top: -100%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        transition: top 0.8s ease 0s;
         width: 100%;
         height: 100%;
         background-color: #FAC663;
         padding-top: 12px;
+    }
+    .header-content-burger.active {
+        top: 0;
     }
 }
 

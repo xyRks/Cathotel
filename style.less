@@ -101,6 +101,7 @@ header {
 
 .active {
     display: block;
+    right: 0;
 }
 
 
@@ -740,15 +741,26 @@ header {
     }
 
     .header-content-burger {
+        display: block;
         position: fixed;
         z-index: 2;
-
+        right: 0;
+        top: -110%;
+        left: 0;
+        bottom: 0;
+        
         width: 100%;
         height: 100%;
+        transition: top 0.8s ease 0s;
         background-color: #FAC663;
         padding-top: 12px;
+        padding-left: 15px;
     }
     
+    .header-content-burger.active {
+        top: 0;
+    }
+
     .about {
         background-image: url(img/paw-back-mobile.png);
         background-position-y: 180px;
