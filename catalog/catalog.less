@@ -206,10 +206,9 @@ option::before {
     box-sizing: border-box;
 }
 
-input:checked + label:before {
-    content: url(/catalog/img/ac);
+input[type="checkbox"]:checked {
+    background-color: #fff;
 }
-
 
 
 .catalog__aside-item:not(:first-child) {
@@ -217,9 +216,7 @@ input:checked + label:before {
     flex-direction: column;
 }
 
-// input[type="checkbox"] {
-//     display: none;
-// }
+
 
 .catalog__aside-input {
     
@@ -318,7 +315,6 @@ input:checked + label:before {
 .catalog__list-text:not(:last-child) {
     margin-bottom: 10px;
     font-size: 14px;
-    font-family: "Roboto";
 }
 
 .catalog__list-icon {
@@ -385,7 +381,7 @@ input:checked + label:before {
     align-items: center;
     margin-bottom: 25px;
     padding-left: 5px;
-    font-family: Roboto;
+    
 }
 
 .banner__conent-button {
